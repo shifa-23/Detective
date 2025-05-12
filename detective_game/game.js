@@ -36,7 +36,7 @@ function choice1() {
       } else if (answer === '2') {
         slowPrint("\n🧳 The case is unlocked—no forced entry. An inside job?").then(choice2);
       } else if (answer === '3') {
-        slowPrint("\n💄 A scarf and an open window in the dressing room. Curious...").then(choice2);
+        slowPrint("\n💄 A scarf in the dressing room. Curious...").then(choice2);
       } else {
         slowPrint("Invalid choice.").then(choice1);
       }
